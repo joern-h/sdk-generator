@@ -446,7 +446,7 @@ class Kotlin extends Language
             return 'Bool';
         }
         if ($method['type'] === 'location') {
-            return 'ByteArray';
+            return 'InputStream';
         }
 
         if (
